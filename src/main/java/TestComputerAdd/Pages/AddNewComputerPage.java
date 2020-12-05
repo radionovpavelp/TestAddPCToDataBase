@@ -1,14 +1,11 @@
 package TestComputerAdd.Pages;
 
-import TestComputerAdd.WebDriverLogger;
-import org.openqa.selenium.By;
+import TestComputerAdd.ConfProperties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AddNewComputerPage {
     public WebDriver driver;
@@ -20,6 +17,10 @@ public class AddNewComputerPage {
 
     }
 
+    String namePC = ConfProperties.getProperty("namePC");
+    String introducedDate = ConfProperties.getProperty("introducedDate");
+    String discountedDate = ConfProperties.getProperty("discountedDate");
+    String company = ConfProperties.getProperty("company");
 
     @FindBy(xpath = "//*[@id='name']")
     private WebElement fillComputerName;
@@ -28,7 +29,7 @@ public class AddNewComputerPage {
     private WebElement fillIntroduced;
 
     @FindBy(xpath = "//*[@id='discontinued']")
-     private WebElement fillDiscontinued;
+    private WebElement fillDiscontinued;
 
     @FindBy(xpath = "//*[@id='company']")
     private WebElement companyNameDropdown;
@@ -59,10 +60,10 @@ public class AddNewComputerPage {
     }
 
     public void clickAddNewPC() {
-       btnCreateThisPC.click();
+        btnCreateThisPC.click();
     }
 
-    public void fillForm(String namePC,String introducedDate,String discountedDate,String company)  {
+    public void fillForm() {
 
 
         setPCName(namePC);

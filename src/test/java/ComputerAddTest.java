@@ -10,13 +10,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.concurrent.TimeUnit;
 
 public class ComputerAddTest {
     public static EventFiringWebDriver driver;
     public static ComputerDataBasePage dataBasePage;
     public static AddNewComputerPage addNewComputerPage;
-  //  WebDriverLogger logger = new WebDriverLogger();
 
     @BeforeClass
     public static void setup() {
@@ -28,29 +28,28 @@ public class ComputerAddTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(10000, TimeUnit.MILLISECONDS);
         driver.get(ConfProperties.getProperty("computerDataBasePage"));
-
     }
+
     @Test
-    public void testAddNewPc() throws InterruptedException {
-        String namePC = ConfProperties.getProperty("namePC");
-        String introducedDate = ConfProperties.getProperty("introducedDate");
-        String discountedDate = ConfProperties.getProperty("discountedDate");
-        String company = ConfProperties.getProperty("company");
+    public void testAddNewPc() throws InterruptedException, ParseException {
+      /*
+        Please enter information about the computer in the config,
+        if there is no information, it will be set by default
+      */
+
         dataBasePage.clickAddNewPC();
         Thread.sleep(1000);
-        addNewComputerPage.fillForm(namePC, introducedDate, discountedDate, company);
+        addNewComputerPage.fillForm();
         Thread.sleep(1000);
-        dataBasePage.checkDoneMessage(namePC);
-        dataBasePage.findComputerInDataBase(namePC);
-        boolean a = dataBasePage.CheckComputerAddedInDataBase(namePC, introducedDate, discountedDate, company);
+        dataBasePage.checkDoneMessage();
+        dataBasePage.findComputerInDataBase();
+        boolean a = dataBasePage.CheckComputerAddedInDataBase();
         Assert.assertTrue(a);
-
     }
-
 
     @AfterClass
     public void afterClass() throws IOException {
         //driver.quit();
-       Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
+        Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
     }
 }

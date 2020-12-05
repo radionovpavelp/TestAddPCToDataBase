@@ -1,17 +1,26 @@
 package TestComputerAdd.Pages;
 
+import TestComputerAdd.ConfProperties;
 import TestComputerAdd.WebDriverLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 
 public class ComputerDataBasePage {
     public WebDriver driver;
     WebDriverLogger logger = new WebDriverLogger();
+    String namePC = ConfProperties.getProperty("namePC");
+    String introducedDate = ConfProperties.getProperty("introducedDate");
+    String discountedDate = ConfProperties.getProperty("discountedDate");
+    String company = ConfProperties.getProperty("company");
 
 
     public ComputerDataBasePage(WebDriver driver) {
@@ -45,13 +54,13 @@ public class ComputerDataBasePage {
     }
 
 
-    public void findComputerInDataBase(String namePC) {
+    public void findComputerInDataBase() {
         setSearch.sendKeys(namePC);
         btnSearch.click();
     }
 
 
-    public void checkDoneMessage(String namePC) {
+    public void checkDoneMessage() {
         if (doneMassage.isDisplayed()) {
             logger.addToLog("Received message: Computer " + namePC + " has been created");
         } else {
@@ -59,24 +68,30 @@ public class ComputerDataBasePage {
         }
     }
 
-    public boolean CheckComputerAddedInDataBase(String namePC, String introducedDate, String discountedDate, String company) {
+    public boolean CheckComputerAddedInDataBase() throws ParseException {
 
         try {
             if (msgNothingToDisplay.isDisplayed()) {
                 logger.addToLog("!!!Test fault   " + namePC + " in Computer database not found \n");
-                System.out.println("Not catch");
+
             }
         } catch (RuntimeException e) {
             if (e.toString().contains("NoSuchElementException")) {
-                System.out.println("catch");
-                return tableLookup(namePC, introducedDate, discountedDate, company);
+
+                return tableLookup();
             }
 
         }
-       return false;
+        return false;
     }
 
-    private boolean tableLookup(String namePC, String introducedDate, String discountedDate, String company) {
+    private boolean tableLookup() throws ParseException {
+        SimpleDateFormat format1 = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat format2 = new SimpleDateFormat("dd MMM yyyy",Locale.US);
+        Date date = format1.parse(introducedDate);
+        Date date1= format1.parse(discountedDate);
+        introducedDate=format2.format(date);
+        discountedDate= format2.format(date1);
         for (WebElement row : tableRows) {
             if (row.getText().equals(namePC + " " + introducedDate + " " + discountedDate + " " + company)) {
                 System.out.println(row.getText());

@@ -11,7 +11,7 @@ public class ConfProperties {
 
     static {
         try {
-            //set set path to the file with settings
+            //set path to the file with settings
             fileInputStream = new FileInputStream("src\\main\\resources\\conf.properties");
             PROPERTIES = new Properties();
             PROPERTIES.load(fileInputStream);
@@ -35,7 +35,7 @@ public class ConfProperties {
         if (PROPERTIES.getProperty(key) == null) {
             switch (key) {
                 case ("namePC"):
-                    return "laptop radionov";
+                    return "Laptop radionov";
                 case ("introducedDate"):
                     return LocalDate.now().minusYears(10).toString();
                 case ("discountedDate"):
@@ -44,7 +44,6 @@ public class ConfProperties {
                     return "ASUS";
             }
         }
-
             return PROPERTIES.getProperty(key);
     }
 }
