@@ -120,3 +120,19 @@
 2020-12-04 19:27:58 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=Radionov'
 2020-12-04 19:27:58 INFO  WebDriverLogger:58 - !!!Test fault   Radionov in Computer database not found 
 
+2020-12-05 09:19:26 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 09:19:26 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 09:19:27 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 09:19:28 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 09:19:28 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'Radionov'.
+2020-12-05 09:19:28 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2010-12-05'.
+2020-12-05 09:19:28 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2020-12-05'.
+2020-12-05 09:19:29 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('ASUS')
+2020-12-05 09:19:29 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 09:19:30 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 09:19:31 INFO  WebDriverLogger:58 - Received message: Computer Radionov has been created
+2020-12-05 09:19:31 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'Radionov'.
+2020-12-05 09:19:31 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 09:19:31 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=Radionov'
+2020-12-05 09:19:32 INFO  WebDriverLogger:58 - !!!Test fault   Radionov in Computer database not found 
+
