@@ -10,7 +10,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.concurrent.TimeUnit;
 
 public class ComputerAddTest {
@@ -31,13 +30,11 @@ public class ComputerAddTest {
         driver.get(ConfProperties.getProperty("computerDataBasePage"));
 
     }
-
-
     @Test
     public void testAddNewPc() throws InterruptedException {
         String namePC = ConfProperties.getProperty("namePC");
-        String introducedDate = LocalDate.now().minusYears(10).toString();
-        String discountedDate = LocalDate.now().toString();
+        String introducedDate = ConfProperties.getProperty("introducedDate");
+        String discountedDate = ConfProperties.getProperty("discountedDate");
         String company = ConfProperties.getProperty("company");
         dataBasePage.clickAddNewPC();
         Thread.sleep(1000);
@@ -55,8 +52,5 @@ public class ComputerAddTest {
     public void afterClass() throws IOException {
         //driver.quit();
        Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
-
-
     }
-
 }
