@@ -43,8 +43,8 @@ public class ComputerAddTest {
         Thread.sleep(1000);
         dataBasePage.checkDoneMessage();
         dataBasePage.findComputerInDataBase();
-        boolean a = dataBasePage.CheckComputerAddedInDataBase();
-        Assert.assertTrue(a);
+        boolean result = dataBasePage.checkComputerAddedInDataBase();
+        Assert.assertTrue(result);
     }
 
     @AfterClass
