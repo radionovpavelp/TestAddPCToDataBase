@@ -490,3 +490,90 @@
 2020-12-05 14:02:07 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=Laptop+radionov'
 2020-12-05 14:02:07 INFO  WebDriverLogger:58 - !!!Test fault   Laptop radionov in Computer database not found 
 
+2020-12-05 15:36:07 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 15:36:07 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 15:36:08 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 15:36:09 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 15:36:09 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'Laptop radionov'.
+2020-12-05 15:36:10 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2010-12-05'.
+2020-12-05 15:36:10 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2020-12-05'.
+2020-12-05 15:36:10 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('ASUS')
+2020-12-05 15:36:10 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 15:36:11 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 15:36:12 INFO  WebDriverLogger:58 - Received message: Computer Laptop radionov has been created
+2020-12-05 15:36:12 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'Laptop radionov'.
+2020-12-05 15:36:12 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 15:36:13 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=Laptop+radionov'
+2020-12-05 15:36:13 INFO  WebDriverLogger:58 - !!!Test fault   Laptop radionov in Computer database not found 
+
+2020-12-05 15:38:14 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 15:38:14 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 15:38:15 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 15:38:16 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 15:38:16 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 15:38:16 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 15:38:16 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 15:38:17 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 15:38:17 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 15:38:17 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 15:38:18 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 15:38:18 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 15:38:19 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 15:38:20 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=ASCI+White'
+2020-12-05 15:38:20 INFO  WebDriverLogger:58 - !!!Success   ASCI White in Computer database added 
+
+2020-12-05 15:52:39 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 15:52:40 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 15:52:40 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 15:52:41 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 15:52:41 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'Laptop radionov'.
+2020-12-05 15:52:42 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2010-12-05'.
+2020-12-05 15:52:42 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2020-12-05'.
+2020-12-05 15:52:42 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('ASUS')
+2020-12-05 15:52:43 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 15:52:43 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 15:52:44 INFO  WebDriverLogger:58 - Received message: Computer Laptop radionov has been created
+2020-12-05 15:52:44 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'Laptop radionov'.
+2020-12-05 15:52:45 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 15:52:45 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=Laptop+radionov'
+2020-12-05 15:52:45 INFO  WebDriverLogger:58 - !!!Test fault   Laptop radionov in Computer database not found 
+
+2020-12-05 16:24:40 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 16:24:40 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 16:24:40 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 16:24:41 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 16:24:42 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'Laptop radionov'.
+2020-12-05 16:24:42 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2010-12-05'.
+2020-12-05 16:24:42 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2020-12-05'.
+2020-12-05 16:24:42 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('ASUS')
+2020-12-05 16:24:43 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 16:24:43 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 16:24:44 INFO  WebDriverLogger:58 - Received message: Computer Laptop radionov has been created
+2020-12-05 16:24:44 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'Laptop radionov'.
+2020-12-05 16:24:45 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 16:24:45 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=Laptop+radionov'
+2020-12-05 16:24:45 INFO  WebDriverLogger:58 - !!!Test fault   Laptop radionov in Computer database not found 
+
+2020-12-05 16:25:28 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 16:25:29 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 16:25:29 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 16:25:30 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 16:25:30 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 16:25:30 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 16:25:31 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 16:25:31 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 16:25:31 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 16:25:32 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 16:25:33 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 16:25:33 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 16:25:33 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 16:25:34 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=ASCI+White'
+2020-12-05 16:25:34 INFO  WebDriverLogger:58 - !!!Success   ASCI White in Computer database added 
+
+2020-12-05 16:35:04 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 16:35:04 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 16:35:04 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 16:35:05 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 16:35:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 16:35:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 16:35:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.

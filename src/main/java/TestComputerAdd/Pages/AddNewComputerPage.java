@@ -1,6 +1,7 @@
 package TestComputerAdd.Pages;
 
 import TestComputerAdd.ConfProperties;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -64,8 +65,6 @@ public class AddNewComputerPage {
     }
 
     public void fillForm() {
-
-
         setPCName(namePC);
         setIntroducedDate(introducedDate);
         setDiscontinuedDate(discountedDate);
@@ -73,6 +72,8 @@ public class AddNewComputerPage {
         clickAddNewPC();
     }
 
-
+    public static boolean isElementExist(WebDriver driver, By by) {
+        return driver.findElements(by).size() > 0;
+    }
 }
 

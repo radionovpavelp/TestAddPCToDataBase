@@ -46,4 +46,5 @@ public class ConfProperties {
         }
             return PROPERTIES.getProperty(key);
     }
+
 }

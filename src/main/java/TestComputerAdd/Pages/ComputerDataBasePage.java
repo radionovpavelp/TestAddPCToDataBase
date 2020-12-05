@@ -7,9 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Locale;
 
@@ -68,39 +67,34 @@ public class ComputerDataBasePage {
         }
     }
 
-    public boolean CheckComputerAddedInDataBase() throws ParseException {
-
+    public boolean checkComputerAddedInDataBase() {
         try {
             if (msgNothingToDisplay.isDisplayed()) {
                 logger.addToLog("!!!Test fault   " + namePC + " in Computer database not found \n");
-
             }
         } catch (RuntimeException e) {
             if (e.toString().contains("NoSuchElementException")) {
-
                 return tableLookup();
             }
-
         }
         return false;
     }
 
-    private boolean tableLookup() throws ParseException {
-        SimpleDateFormat format1 = new SimpleDateFormat("yyyy-MM-dd");
-        SimpleDateFormat format2 = new SimpleDateFormat("dd MMM yyyy",Locale.US);
-        Date date = format1.parse(introducedDate);
-        Date date1= format1.parse(discountedDate);
-        introducedDate=format2.format(date);
-        discountedDate= format2.format(date1);
+    private boolean tableLookup() {
         for (WebElement row : tableRows) {
-            if (row.getText().equals(namePC + " " + introducedDate + " " + discountedDate + " " + company)) {
-                System.out.println(row.getText());
+            if (row.getText().equals(namePC + " " + changeDateFormatForSearch(introducedDate) + " " + changeDateFormatForSearch(discountedDate) + " " + company)) {
                 logger.addToLog("!!!Success   " + namePC + " in Computer database added \n");
                 return true;
             }
         }
         logger.addToLog("!!!Test fault   " + namePC + " in Computer database not found \n");
         return false;
+    }
+
+    private String changeDateFormatForSearch(String date){
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMM yyyy", Locale.US);
+        LocalDate localDate = LocalDate.parse(date);
+        return formatter.format(localDate);
     }
 
 }
