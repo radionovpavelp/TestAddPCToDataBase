@@ -15,10 +15,9 @@ Getting started with the project:
   2) download  Gradle  dependencies
   3) to get testing report run Gradle script
 
-To view the test execution low level logs , open src\main\resources\TMP\log_file.log
-
+To view: 
+        the test execution low level logs , open src\main\resources\TMP\log_file.log
         testing report open \src\main\resources\TMP\AutomationReport\index.htm
-
-        testing report open \src\main\resources\TMP\GradleReport\index.html 
+        gardle report open \src\main\resources\TMP\GradleReport\index.html 
 
 To change information about imputed Computer edit file src\main\resources\conf.properties
