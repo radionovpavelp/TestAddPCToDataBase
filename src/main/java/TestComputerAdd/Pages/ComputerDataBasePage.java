@@ -2,6 +2,7 @@ package TestComputerAdd.Pages;
 
 import TestComputerAdd.ConfProperties;
 import TestComputerAdd.WebDriverLogger;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,7 +19,7 @@ public class ComputerDataBasePage {
     WebDriverLogger logger = new WebDriverLogger();
     String namePC = ConfProperties.getProperty("namePC");
     String introducedDate = ConfProperties.getProperty("introducedDate");
-    String discountedDate = ConfProperties.getProperty("discountedDate");
+    String discontinuedDate = ConfProperties.getProperty("discontinuedDate");
     String company = ConfProperties.getProperty("company");
 
 
@@ -72,17 +73,15 @@ public class ComputerDataBasePage {
             if (msgNothingToDisplay.isDisplayed()) {
                 logger.addToLog("!!!Test fault   " + namePC + " in Computer database not found \n");
             }
-        } catch (RuntimeException e) {
-            if (e.toString().contains("NoSuchElementException")) {
+        } catch (NoSuchElementException e) {
                 return tableLookup();
-            }
         }
         return false;
     }
 
     private boolean tableLookup() {
         for (WebElement row : tableRows) {
-            if (row.getText().equals(namePC + " " + changeDateFormatForSearch(introducedDate) + " " + changeDateFormatForSearch(discountedDate) + " " + company)) {
+            if (row.getText().equals(namePC + " " + changeDateFormatForSearch(introducedDate) + " " + changeDateFormatForSearch(discontinuedDate) + " " + company)) {
                 logger.addToLog("!!!Success   " + namePC + " in Computer database added \n");
                 return true;
             }

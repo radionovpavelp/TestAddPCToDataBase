@@ -22,5 +22,9 @@ dependencies {
 }
 
 test {
-    useTestNG()
+    useTestNG() {
+        useDefaultListeners = true
+        outputDirectory = file("$projectDir/src/main/resources/TMP/AutomationReport")
+    }
+    reports.html.setDestination(file("$projectDir/src/main/resources/TMP/GradleReport"))
 }

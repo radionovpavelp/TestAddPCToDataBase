@@ -5,6 +5,7 @@ import TestComputerAdd.WebDriverLogger;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -33,11 +34,6 @@ public class ComputerAddTest {
 
     @Test
     public void testAddNewPc() throws InterruptedException, ParseException {
-      /*
-        Please enter information about the computer in the config,
-        if there is no information, it will be set by default
-      */
-
         dataBasePage.clickAddNewPC();
         Thread.sleep(1000);
         addNewComputerPage.fillForm();
@@ -50,7 +46,8 @@ public class ComputerAddTest {
 
     @AfterClass
     public void afterClass() throws IOException {
-        driver.quit();
+       // driver.quit();
         Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
+        Runtime.getRuntime().exec("C:\\Users\\user\\IdeaProjects\\TestAddPCToDataBase\\src\\main\\resources\\TMP\\GradleReport\\index.html");
     }
 }

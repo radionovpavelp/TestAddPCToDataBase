@@ -1,22 +1,15 @@
 package TestComputerAdd.Pages;
 
 import TestComputerAdd.ConfProperties;
-import org.openqa.selenium.By;
-import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 
-import javax.naming.ldap.PagedResultsResponseControl;
-import java.util.concurrent.TimeUnit;
 
 public class AddNewComputerPage {
     public WebDriver driver;
-
 
     public AddNewComputerPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -25,10 +18,10 @@ public class AddNewComputerPage {
 
     String namePC = ConfProperties.getProperty("namePC");
     String introducedDate = ConfProperties.getProperty("introducedDate");
-    String discountedDate = ConfProperties.getProperty("discountedDate");
+    String discontinuedDate = ConfProperties.getProperty("discontinuedDate");
     String company = ConfProperties.getProperty("company");
 
-    @FindBy(xpath = "//*[@id='name']")
+    @FindBy(id = "name")
     private WebElement fillComputerName;
 
     @FindBy(xpath = "//*[@id='introduced']")
@@ -72,7 +65,7 @@ public class AddNewComputerPage {
     public void fillForm() {
         setPCName(namePC);
         setIntroducedDate(introducedDate);
-        setDiscontinuedDate(discountedDate);
+        setDiscontinuedDate(discontinuedDate);
         selectCompanyName(company);
         clickAddNewPC();
     }

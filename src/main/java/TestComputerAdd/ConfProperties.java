@@ -2,7 +2,6 @@ package TestComputerAdd;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.Properties;
 
 public class ConfProperties {
@@ -32,19 +31,7 @@ public class ConfProperties {
      * method for returning a string with values from a file with settings
      */
     public static String getProperty(String key) {
-        if (PROPERTIES.getProperty(key) == null) {
-            switch (key) {
-                case ("namePC"):
-                    return "Laptop radionov";
-                case ("introducedDate"):
-                    return LocalDate.now().minusYears(10).toString();
-                case ("discountedDate"):
-                    return LocalDate.now().toString();
-                case ("company"):
-                    return "ASUS";
-            }
-        }
-            return PROPERTIES.getProperty(key);
+        return PROPERTIES.getProperty(key);
     }
 
 }
