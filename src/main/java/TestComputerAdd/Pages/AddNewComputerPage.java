@@ -1,11 +1,14 @@
 package TestComputerAdd.Pages;
 
 import TestComputerAdd.ConfProperties;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class AddNewComputerPage {
@@ -36,12 +39,9 @@ public class AddNewComputerPage {
     @FindBy(xpath = "//*[@value='Create this computer']")
     private WebElement btnCreateThisPC;
 
-    @FindBy(xpath = "//*[contains(text(), 'Add a computer')]")
-    private WebElement checkPage;
 
 
     public void setPCName(String namePC) {
-        fillComputerName.click();
         fillComputerName.sendKeys(namePC);
     }
 
@@ -58,18 +58,26 @@ public class AddNewComputerPage {
         statusDropdown.selectByVisibleText(company);
     }
 
-    public void clickAddNewPC() {
+    public void clickCreateThisPC() {
         btnCreateThisPC.click();
     }
 
     public void fillForm() {
+        waiting();
         setPCName(namePC);
         setIntroducedDate(introducedDate);
         setDiscontinuedDate(discontinuedDate);
         selectCompanyName(company);
-        clickAddNewPC();
+        clickCreateThisPC();
+        waiting();
     }
 
-
+    private void waiting() {
+        try {
+            new WebDriverWait(driver, 1).until(
+                    ExpectedConditions.jsReturnsValue("return document.readyState === 'complete' ? false : true"));
+        } catch (TimeoutException ignored) {
+        }
+    }
 }
 

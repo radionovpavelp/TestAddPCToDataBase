@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ComputerAddTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-12-06T11:58:10" hostname="USER-ПК" time="8.813">
+<testsuite name="ComputerAddTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-12-06T18:34:57" hostname="USER-ПК" time="5.271">
   <properties/>
-  <testcase name="testAddNewPc" classname="ComputerAddTest" time="8.813">
+  <testcase name="testAddNewPc" classname="ComputerAddTest" time="5.271">
     <failure message="java.lang.AssertionError: expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertTrue(Assert.java:44)
 	at org.testng.Assert.assertTrue(Assert.java:54)
-	at ComputerAddTest.testAddNewPc(ComputerAddTest.java:49)
+	at ComputerAddTest.testAddNewPc(ComputerAddTest.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,11 +61,11 @@
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 31956
+  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 5205
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-дек. 06, 2020 12:58:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+дек. 06, 2020 7:34:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

@@ -13,7 +13,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Locale;
 
-
 public class ComputerDataBasePage {
     public WebDriver driver;
     WebDriverLogger logger = new WebDriverLogger();
@@ -22,11 +21,8 @@ public class ComputerDataBasePage {
     String discontinuedDate = ConfProperties.getProperty("discontinuedDate");
     String company = ConfProperties.getProperty("company");
 
-
     public ComputerDataBasePage(WebDriver driver) {
-
         PageFactory.initElements(driver, this);
-
         this.driver = driver;
     }
 
@@ -48,17 +44,14 @@ public class ComputerDataBasePage {
     @FindBy(xpath = "//*[@class='computers zebra-striped']//tbody//tr")
     List<WebElement> tableRows;
 
-
     public void clickAddNewPC() {
         addNewPC.click();
     }
-
 
     public void findComputerInDataBase() {
         setSearch.sendKeys(namePC);
         btnSearch.click();
     }
-
 
     public void checkDoneMessage() {
         if (doneMassage.isDisplayed()) {
@@ -74,7 +67,7 @@ public class ComputerDataBasePage {
                 logger.addToLog("!!!Test fault   " + namePC + " in Computer database not found \n");
             }
         } catch (NoSuchElementException e) {
-                return tableLookup();
+            return tableLookup();
         }
         return false;
     }
@@ -90,10 +83,9 @@ public class ComputerDataBasePage {
         return false;
     }
 
-    private String changeDateFormatForSearch(String date){
+    private String changeDateFormatForSearch(String date) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMM yyyy", Locale.US);
         LocalDate localDate = LocalDate.parse(date);
         return formatter.format(localDate);
     }
-
 }

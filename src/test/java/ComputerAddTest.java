@@ -5,20 +5,17 @@ import TestComputerAdd.WebDriverLogger;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.text.ParseException;
 import java.util.concurrent.TimeUnit;
 
 public class ComputerAddTest {
     public static EventFiringWebDriver driver;
     public static ComputerDataBasePage dataBasePage;
     public static AddNewComputerPage addNewComputerPage;
-
 
     @BeforeClass
     public static void setup() {
@@ -27,17 +24,15 @@ public class ComputerAddTest {
         driver.register(new WebDriverLogger());
         dataBasePage = new ComputerDataBasePage(driver);
         addNewComputerPage = new AddNewComputerPage(driver);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(ConfProperties.getProperty("computerDataBasePage"));
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test
-    public void testAddNewPc() throws InterruptedException, ParseException {
+    public void testAddNewPc() {
         dataBasePage.clickAddNewPC();
-        Thread.sleep(1000);
         addNewComputerPage.fillForm();
-        Thread.sleep(1000);
         dataBasePage.checkDoneMessage();
         dataBasePage.findComputerInDataBase();
         boolean result = dataBasePage.checkComputerAddedInDataBase();
@@ -46,8 +41,7 @@ public class ComputerAddTest {
 
     @AfterClass
     public void afterClass() throws IOException {
-       // driver.quit();
+        driver.quit();
         Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
-        Runtime.getRuntime().exec("C:\\Users\\user\\IdeaProjects\\TestAddPCToDataBase\\src\\main\\resources\\TMP\\GradleReport\\index.html");
     }
 }
