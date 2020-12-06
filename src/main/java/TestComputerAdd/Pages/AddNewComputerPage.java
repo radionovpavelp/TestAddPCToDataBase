@@ -2,11 +2,17 @@ package TestComputerAdd.Pages;
 
 import TestComputerAdd.ConfProperties;
 import org.openqa.selenium.By;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import javax.naming.ldap.PagedResultsResponseControl;
+import java.util.concurrent.TimeUnit;
 
 public class AddNewComputerPage {
     public WebDriver driver;
@@ -15,7 +21,6 @@ public class AddNewComputerPage {
     public AddNewComputerPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
-
     }
 
     String namePC = ConfProperties.getProperty("namePC");
@@ -72,8 +77,6 @@ public class AddNewComputerPage {
         clickAddNewPC();
     }
 
-    public static boolean isElementExist(WebDriver driver, By by) {
-        return driver.findElements(by).size() > 0;
-    }
+
 }
 

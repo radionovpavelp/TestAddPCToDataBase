@@ -18,6 +18,7 @@ public class ComputerAddTest {
     public static ComputerDataBasePage dataBasePage;
     public static AddNewComputerPage addNewComputerPage;
 
+
     @BeforeClass
     public static void setup() {
         System.setProperty("webdriver.chrome.driver", ConfProperties.getProperty("chromedriver"));
@@ -25,8 +26,8 @@ public class ComputerAddTest {
         driver.register(new WebDriverLogger());
         dataBasePage = new ComputerDataBasePage(driver);
         addNewComputerPage = new AddNewComputerPage(driver);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(10000, TimeUnit.MILLISECONDS);
         driver.get(ConfProperties.getProperty("computerDataBasePage"));
     }
 
@@ -49,7 +50,7 @@ public class ComputerAddTest {
 
     @AfterClass
     public void afterClass() throws IOException {
-        //driver.quit();
+        driver.quit();
         Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
     }
 }

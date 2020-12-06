@@ -577,3 +577,327 @@
 2020-12-05 16:35:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
 2020-12-05 16:35:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
 2020-12-05 16:35:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:08:57 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:08:57 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:08:58 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:08:58 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:08:58 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:08:58 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:08:58 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:08:58 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:08:59 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:08:59 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:10:23 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:10:23 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:10:24 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:10:24 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:10:24 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:10:24 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:10:24 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:10:25 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:10:25 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:10:25 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:10:25 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 22:10:25 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 22:10:26 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 22:10:36 INFO  WebDriverLogger:58 - !!!Test fault   ASCI White in Computer database not found 
+
+2020-12-05 22:11:04 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:11:04 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:11:06 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:11:06 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:11:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:11:07 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:11:07 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:11:07 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:11:07 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:11:08 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:11:08 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 22:11:08 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 22:11:08 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 22:11:19 INFO  WebDriverLogger:58 - !!!Test fault   ASCI White in Computer database not found 
+
+2020-12-05 22:33:03 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:33:03 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:33:03 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:33:04 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:33:04 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:33:04 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:33:04 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:33:04 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:33:05 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:33:05 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:33:49 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:33:49 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:33:50 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:33:50 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:33:50 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:33:50 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:33:50 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:33:51 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:33:51 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:33:52 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:34:30 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:34:30 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:34:31 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:34:31 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:34:31 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:34:31 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:34:32 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:34:32 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:34:32 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:34:32 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:34:33 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 22:34:33 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 22:34:33 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 22:34:48 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:34:48 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:34:49 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:34:49 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:34:49 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:34:49 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:34:49 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:34:50 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:34:50 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:34:50 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:34:50 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 22:34:51 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 22:34:51 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 22:35:09 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:35:09 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:35:10 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:35:10 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:35:10 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:35:10 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:35:10 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:35:11 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:35:11 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:35:11 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:35:11 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 22:35:12 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 22:35:12 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 22:36:05 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:36:05 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:36:05 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:36:05 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:36:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:36:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:36:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:36:06 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:36:06 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:36:07 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:36:22 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:36:23 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:36:23 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:36:23 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:36:23 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:36:24 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:36:24 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:36:24 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:36:24 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:36:25 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:36:25 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 22:36:25 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 22:36:25 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 22:36:38 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:36:38 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:36:38 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:36:39 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:36:39 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:36:39 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:36:39 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:36:39 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:36:39 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:37:05 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:37:05 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:37:06 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:37:06 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:37:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:37:06 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:37:07 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:37:07 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:37:07 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:37:07 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:37:08 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 22:37:08 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 22:37:08 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 22:37:22 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:37:22 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:37:23 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:37:23 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:37:23 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:37:23 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:37:23 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:37:24 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:37:24 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:37:25 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:37:25 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 22:37:25 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 22:37:25 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 22:37:25 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=ASCI+White'
+2020-12-05 22:38:12 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:38:12 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:38:13 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:38:13 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:38:13 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:38:13 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:38:14 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:38:14 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:38:14 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:38:15 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:38:15 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 22:38:15 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 22:38:15 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 22:38:16 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=ASCI+White'
+2020-12-05 22:38:37 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:38:38 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:38:38 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:38:38 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:38:38 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:38:38 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:38:39 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:38:39 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:38:39 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:38:40 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:38:40 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 22:38:40 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 22:38:40 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 22:38:40 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=ASCI+White'
+2020-12-05 22:55:30 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:55:31 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:55:31 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:55:31 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:55:32 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:55:32 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:55:32 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:55:32 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:55:32 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:55:33 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:58:13 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 22:58:14 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 22:58:14 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 22:58:14 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 22:58:14 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 22:58:15 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 22:58:15 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 22:58:15 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 22:58:15 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 22:58:17 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:01:19 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:01:19 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 23:01:20 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 23:03:44 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:03:45 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 23:03:45 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 23:03:45 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 23:03:46 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 23:03:46 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 23:03:46 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 23:03:46 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 23:03:46 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 23:03:47 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:03:48 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 23:03:48 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 23:03:48 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 23:03:48 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=ASCI+White'
+2020-12-05 23:05:10 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:05:11 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 23:05:12 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 23:05:13 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 23:05:13 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 23:05:13 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 23:05:13 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 23:05:14 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 23:05:14 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 23:05:15 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:05:15 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 23:05:15 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 23:05:15 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 23:05:34 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:05:34 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 23:05:34 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 23:05:34 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 23:05:35 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 23:05:35 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 23:05:35 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 23:05:35 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 23:05:35 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 23:05:36 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:05:36 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 23:05:36 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 23:05:36 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 23:05:51 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:05:52 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 23:05:52 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 23:05:52 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 23:05:52 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 23:05:52 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 23:05:53 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 23:05:53 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 23:05:53 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 23:05:54 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:06:18 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:06:18 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 23:06:19 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 23:06:19 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 23:06:19 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 23:06:19 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 23:06:19 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 23:06:19 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 23:06:20 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 23:06:20 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:12:30 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:12:30 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-05 23:12:31 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-05 23:12:32 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-05 23:12:32 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-05 23:12:32 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-05 23:12:32 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-05 23:12:32 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-05 23:12:33 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-05 23:12:33 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-05 23:12:34 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-05 23:12:34 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-05 23:12:35 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-05 23:12:35 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=ASCI+White'
+2020-12-06 08:34:21 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-06 08:34:21 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-06 08:34:22 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-06 08:34:23 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-06 08:34:23 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-06 08:34:23 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-06 08:34:23 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-06 08:34:24 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-06 08:34:24 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-06 08:35:14 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-06 08:35:15 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-06 08:35:15 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-06 08:35:16 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-06 08:35:17 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'ASCI White'.
+2020-12-06 08:35:17 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2001-01-01'.
+2020-12-06 08:35:17 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2006-01-01'.
+2020-12-06 08:35:17 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('IBM')
+2020-12-06 08:35:17 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-06 08:35:18 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-06 08:35:19 INFO  WebDriverLogger:58 - Received message: Computer ASCI White has been created
+2020-12-06 08:35:19 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'ASCI White'.
+2020-12-06 08:35:19 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-06 08:35:20 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=ASCI+White'
+2020-12-06 08:35:30 INFO  WebDriverLogger:58 - !!!Success   ASCI White in Computer database added 
+
+2020-12-06 08:36:36 INFO  WebDriverLogger:17 - WebDriver navigated to 'http://computer-database.gatling.io/computers'
+2020-12-06 08:36:36 INFO  WebDriverLogger:23 - WebDriver click on element - tag:a id: add
+2020-12-06 08:36:36 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers/new'
+2020-12-06 08:36:38 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: name
+2020-12-06 08:36:38 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: name value is: 'Laptop radionov'.
+2020-12-06 08:36:38 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: introduced value is: '2010-12-06'.
+2020-12-06 08:36:38 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: discontinued value is: '2020-12-06'.
+2020-12-06 08:36:38 INFO  WebDriverLogger:23 - WebDriver click on element - tag:option id:  ('ASUS')
+2020-12-06 08:36:38 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: 
+2020-12-06 08:36:39 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers'
+2020-12-06 08:36:40 INFO  WebDriverLogger:58 - Received message: Computer Laptop radionov has been created
+2020-12-06 08:36:40 INFO  WebDriverLogger:43 - WebDriver will change value for element - tag:input id: searchbox value is: 'Laptop radionov'.
+2020-12-06 08:36:40 INFO  WebDriverLogger:23 - WebDriver click on element - tag:input id: searchsubmit
+2020-12-06 08:36:40 INFO  WebDriverLogger:30 - WebDriver after click chang URL and go to 'http://computer-database.gatling.io/computers?f=Laptop+radionov'
+2020-12-06 08:36:41 INFO  WebDriverLogger:58 - !!!Test fault   Laptop radionov in Computer database not found 
+
