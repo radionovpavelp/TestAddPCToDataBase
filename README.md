@@ -8,12 +8,17 @@ In project use:
 7) slf4j-log4j12 1.7.21
 8) slf4j-api  1.7.25
 
+
 Getting started with the project: 
 
-  1) Check your browser and webdriver compatibility.
-  please replace chromedriver if needed (in catalog src\\main\\resources\\chromedriver.exe)
-  2) download  Gradle  dependencies
-  3) to get testing report run Gradle script
+1) Check your browser and webdriver compatibility. 
+  
+  Please replace chromedriver if needed (in catalog src\\main\\resources\\chromedriver.exe).
+  
+2) download  Gradle  dependencies
+  
+3) to get testing report run Gradle script
+
 
 To view:
 
