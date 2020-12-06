@@ -44,16 +44,6 @@ public class WebDriverLogger extends AbstractWebDriverEventListener {
                 + elementDescription(element) + str);
     }
 
-    /*  @Override
-      public void afterChangeValueOf(WebElement element, WebDriver driver,CharSequence[] keysToSend) {
-          String str=" Value is ";
-          for (CharSequence i:keysToSend){
-          str +=i;
-          }
-          LOGGER.info("WebDriver changed value for element - "
-                  + elementDescription(element)+str);
-      }
-   */
     public void addToLog(String addToLog) {
         LOGGER.info(addToLog);
     }
