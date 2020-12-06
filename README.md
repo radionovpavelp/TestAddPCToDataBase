@@ -9,13 +9,16 @@ slf4j-log4j12 1.7.21
 slf4j-api  1.7.25
 
 Getting started with the project: 
-1) Check your browser and webdriver compatibility.
-please replace chromedriver if needed (in catalog src\\main\\resources\\chromedriver.exe)
-2) download  Gradle  dependencies
-3) to get testing report run Gradle script
+
+  1) Check your browser and webdriver compatibility.
+  please replace chromedriver if needed (in catalog src\\main\\resources\\chromedriver.exe)
+  2) download  Gradle  dependencies
+  3) to get testing report run Gradle script
 
 To view the test execution low level logs , open src\main\resources\TMP\log_file.log
-To view testing report open \src\main\resources\TMP\AutomationReport\index.htm
-To view testing report open \src\main\resources\TMP\GradleReport\index.html 
+
+        testing report open \src\main\resources\TMP\AutomationReport\index.htm
+
+        testing report open \src\main\resources\TMP\GradleReport\index.html 
 
 To change information about imputed Computer edit file src\main\resources\conf.properties
