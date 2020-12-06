@@ -1,12 +1,12 @@
 In project use:
-browser: Chrome version 87
-webdriver:   ChromeDriver 87.0.4280.88
-IDE: IntelliJ IDEA 2020.2.2 (Community Edition) Runtime version: 11.0.8+10-b944.31 amd64
-Gradle
-testng 6.14.3
-selenium-java 3.141.59 
-slf4j-log4j12 1.7.21
-slf4j-api  1.7.25
+1) browser: Chrome version 87
+2) webdriver:   ChromeDriver 87.0.4280.88
+3) IDE: IntelliJ IDEA 2020.2.2 (Community Edition) Runtime version: 11.0.8+10-b944.31 amd64
+4) Gradle
+5) testng 6.14.3
+6) selenium-java 3.141.59 
+7) slf4j-log4j12 1.7.21
+8) slf4j-api  1.7.25
 
 Getting started with the project: 
 
@@ -17,10 +17,10 @@ Getting started with the project:
 
 To view:
 
-	the test execution low level logs , open src\main\resources\TMP\log_file.log
+the test execution low level logs , open src\main\resources\TMP\log_file.log
 
-	testing report open \src\main\resources\TMP\AutomationReport\index.html
+testing report open \src\main\resources\TMP\AutomationReport\index.html
 	
-	gardle report open \src\main\resources\TMP\GradleReport\index.html 
+gardle report open \src\main\resources\TMP\GradleReport\index.html 
 
 To change information about imputed Computer edit file src\main\resources\conf.properties
