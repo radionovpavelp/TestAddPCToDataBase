@@ -16,7 +16,7 @@ Getting started with the project:
   3) to get testing report run Gradle script
 
 To view: 
-        the test execution low level logs , open src\main\resources\TMP\log_file.log
+				the test execution low level logs , open src\main\resources\TMP\log_file.log
         testing report open \src\main\resources\TMP\AutomationReport\index.htm
         gardle report open \src\main\resources\TMP\GradleReport\index.html 
 
